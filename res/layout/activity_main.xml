@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkgrnd"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/teenager"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/und_corner"
+        android:text="কিশোর- কিশোরী" />
+
+   
+     <Button
+        android:id="@+id/adult"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/teenager"
+        android:layout_below="@+id/teenager"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/und_corner"
+        android:text="পারপ্ত বয়স্ক" />
+    
+    <Button
+        android:id="@+id/help"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/adult"
+        android:layout_below="@+id/adult"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/und_corner"
+        android:text="সাহায্য" />
+
+   
+
+</RelativeLayout>
+

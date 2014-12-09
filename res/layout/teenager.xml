@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bkgrnd">
+
+    <Button
+        android:id="@+id/SanitaryNapkin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/und_corner"
+        android:text="স্যানিটারি ন্যাপকিন" />
+
+    <Button
+        android:id="@+id/Cuming"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/SanitaryNapkin"
+        android:layout_below="@+id/SanitaryNapkin"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/und_corner"
+        android:text="Button" />
+
+</RelativeLayout>
